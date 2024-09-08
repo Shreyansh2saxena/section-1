@@ -4,14 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie ticket form</title>
+
+   <style>
+        body{
+                background-color: rgb(200, 196, 196);
+               
+                
+        }
+        .class{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+        }
+        #id{
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            background-color:blanchedalmond;
+            border: 1px solid;
+            font-weight: 200;
+        }
+      
+   </style>
 </head>
 <body>
-<img src="https://www.pngmart.com/files/3/Popcorn-PNG-Transparent-Image.png" title="Movie" alt="" width="100" height="100">
-    <h1>Movie tickets</h1>
-    <label>Movie Name</label>
+<img class="class" src="https://www.pngmart.com/files/3/Popcorn-PNG-Transparent-Image.png" title="Movie" alt="" width="200" height="200">
+    <h1 style="text-align: center;font-size: 40px; background-color: bisque;border: 3px solid;">Movie Tickets</h1>
+    <label id="id">Movie Name</label>
     <input type="text" required>
     <br><br>
-    <label for="">language</label>
+    <label id="id">language</label>
     <input type="text" required>
         
         <label for="">2D</label>
@@ -19,34 +42,31 @@
         <label>3D</label>
         <input type="radio" name="option">
         <br><br>
-        <label for="">Date</label>
-        <input type="date" name="" id="">
+        <label id="id">Date & Time</label>
+        <input type="datetime-local" name="" id="">
         <br><br>
-        <label for="">Time</label>
-        <input type="time" name="" id="">
-        <br><br>
-        <label for="">No. of tickets</label>
+
+        <label id="id" >No. of tickets</label>
         <input type="number">
         
-<br>
-        <h2>Details</h2>
-        <label for="" >Name</label>
+        <h2 style="text-align: center;font-size: 40px;background-color: bisque;border: 3px solid;">Details</h2>
+        <label id="id" for="text-align" >Name</label>
         <input type="text" required>
 <br><br>
-        <label for="">Gender :</label>
-        <br>
-        <label for="">Male</label>
+        <label id="id" for="">Gender :</label>
+        <br><br>
+        <label style="border: 1px solid;">Male</label>
         <input type="radio" name="gender" id="">
-        <label for="">Female</label>
+        <label style="border: 1px solid;" >Female</label>
         <input type="radio" name="gender" id="">
 <br><br>
-        <label for="">Phone no. </label>
+        <label id="id"for="">Phone no. </label>
         <input type="tel" value="+91 " minlength="10">
         <br><br>
-        <label for="">Email:</label>
+        <label id="id"for="">Email:</label>
         <input type="email" placeholder="abc@gmail.com">
-        <br><br>
-        <button type="submit">submit</button>
+        <br><br><br>
+        <button style="background-color: lightpink;" class="class" type="submit">submit</button>
     
 </body>
 </html>
