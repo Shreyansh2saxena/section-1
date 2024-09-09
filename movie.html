@@ -7,7 +7,7 @@
 
    <style>
         body{
-                background-color: rgb(200, 196, 196);
+               background-color: black;
                
                 
         }
@@ -17,12 +17,16 @@
                 margin-right: auto;
                 
         }
+        label{ 
+               
+               
+        }
+        
         #id{
             font-size: medium;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: center;
-            background-color:blanchedalmond;
-            border: 1px solid;
+              color: white;  
             font-weight: 200;
         }
       
@@ -30,16 +34,20 @@
 </head>
 <body>
 <img class="class" src="https://www.pngmart.com/files/3/Popcorn-PNG-Transparent-Image.png" title="Movie" alt="" width="200" height="200">
-    <h1 style="text-align: center;font-size: 40px; background-color: bisque;border: 3px solid;">Movie Tickets</h1>
+    <h2 style="text-align: center;font-size: 40px; text-shadow:  5px 5px 40px rgb(244, 247, 246),0 0 42px rgb(104, 104, 232);">Movie Tickets</h2>
     <label id="id">Movie Name</label>
-    <input type="text" required>
+    <input type="text"  required>
     <br><br>
     <label id="id">language</label>
-    <input type="text" required>
+    <select name="" id="" required>
+        <option value="">hindi</option>
+        <option value="">english</option>
+    </select>
+   
         
-        <label for="">2D</label>
+        <label style="color: antiquewhite;">2D</label>
         <input type="radio" name="option">
-        <label>3D</label>
+        <label style="color: antiquewhite">3D</label>
         <input type="radio" name="option">
         <br><br>
         <label id="id">Date & Time</label>
@@ -49,15 +57,15 @@
         <label id="id" >No. of tickets</label>
         <input type="number">
         
-        <h2 style="text-align: center;font-size: 40px;background-color: bisque;border: 3px solid;">Details</h2>
+        <h2 style="text-align: center;font-size: 40px;text-shadow: 5px 5px 35px rgb(244, 247, 246),0 0 42px rgb(104, 104, 232);;">Details</h2>
         <label id="id" for="text-align" >Name</label>
         <input type="text" required>
 <br><br>
         <label id="id" for="">Gender :</label>
         <br><br>
-        <label style="border: 1px solid;">Male</label>
+        <label style=" ;color: white;">Male</label>
         <input type="radio" name="gender" id="">
-        <label style="border: 1px solid;" >Female</label>
+        <label style=" color: white;" >Female</label>
         <input type="radio" name="gender" id="">
 <br><br>
         <label id="id"for="">Phone no. </label>
@@ -65,8 +73,16 @@
         <br><br>
         <label id="id"for="">Email:</label>
         <input type="email" placeholder="abc@gmail.com">
-        <br><br><br>
-        <button style="background-color: lightpink;" class="class" type="submit">submit</button>
+        <br><br>
+        <label id="id"> Payment method:</label>    
+<input type="text" list="college">
+<datalist id="college">
+    <option>google pay</option>
+    <option>phone pay</option>
+    <option>paytm</option>
+</datalist>
+<br><br>
+        <button style="background-color:palevioletred;" class="class" type="submit">submit</button>
     
 </body>
 </html>
