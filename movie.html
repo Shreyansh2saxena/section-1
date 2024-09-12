@@ -3,86 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie ticket form</title>
+    <title>Document</title>
 
-   <style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+
+
+<style>
+ *{
+            font-family: Roboto;
+        }
+
+  .card{         
+    width: 30%;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.456) ;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(222, 216, 216, 0.515);
+     }
+     .btn{
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+
+
+     }
+
         body{
-               background-color: black;
-               
-                
-        }
-        .class{
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                
-        }
-        label{ 
-               
-               
-        }
-        
-        #id{
-            font-size: medium;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-align: center;
-              color: white;  
-            font-weight: 200;
-        }
-      
-   </style>
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            padding: 20px;
+            
+            
+     }
+     .title{
+        text-align: center;
+        font-weight: 350;
+       
+     }
+     .text-input{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+     }
+    
+   
+</style>
+    
 </head>
 <body>
-<img class="class" src="https://www.pngmart.com/files/3/Popcorn-PNG-Transparent-Image.png" title="Movie" alt="" width="200" height="200">
-    <h2 style="text-align: center;font-size: 40px; text-shadow:  5px 5px 40px rgb(244, 247, 246),0 0 42px rgb(104, 104, 232);">Movie Tickets</h2>
-    <label id="id">Movie Name</label>
-    <input type="text"  required>
-    <br><br>
-    <label id="id">language</label>
-    <select name="" id="" required>
-        <option value="">hindi</option>
-        <option value="">english</option>
-    </select>
-   
-        
-        <label style="color: antiquewhite;">2D</label>
-        <input type="radio" name="option">
-        <label style="color: antiquewhite">3D</label>
-        <input type="radio" name="option">
-        <br><br>
-        <label id="id">Date & Time</label>
-        <input type="datetime-local" name="" id="">
-        <br><br>
+    <div class="card">
+        <h1 class="title">Movie detail</h1>
+        <form action="">
+            <label>Movie name</label>
+            <input type="text" required class="text-input">
 
-        <label id="id" >No. of tickets</label>
-        <input type="number">
-        
-        <h2 style="text-align: center;font-size: 40px;text-shadow: 5px 5px 35px rgb(244, 247, 246),0 0 42px rgb(104, 104, 232);;">Details</h2>
-        <label id="id" for="text-align" >Name</label>
-        <input type="text" required>
-<br><br>
-        <label id="id" for="">Gender :</label>
-        <br><br>
-        <label style=" ;color: white;">Male</label>
-        <input type="radio" name="gender" id="">
-        <label style=" color: white;" >Female</label>
-        <input type="radio" name="gender" id="">
-<br><br>
-        <label id="id"for="">Phone no. </label>
-        <input type="tel" value="+91 " minlength="10">
-        <br><br>
-        <label id="id"for="">Email:</label>
-        <input type="email" placeholder="abc@gmail.com">
-        <br><br>
-        <label id="id"> Payment method:</label>    
-<input type="text" list="college">
-<datalist id="college">
-    <option>google pay</option>
-    <option>phone pay</option>
-    <option>paytm</option>
-</datalist>
-<br><br>
-        <button style="background-color:palevioletred;" class="class" type="submit">submit</button>
+            <label>language</label>
+            <input type="text" required class="text-input">
+
+            <label>2D</label>
+            <input type="radio" name="u" class="text-input">
+
+            <label>3D</label>
+            <input type="radio" name="u" required class="text-input">
+
+            <label>Date & Time</label>
+            <input type="datetime-local" required class="text-input">
+
+            <label>No. of tickets </label>
+            <input type="number"  class="text-input">
     
+            <h1 class="title">Details</h1>
+            <label>Name</label>
+            <input type="text" required class="text-input">
+
+            <label>Email</label>
+            <input type="email" placeholder="abc@gmail" required class="text-input">
+
+            <label>Phone no. </label>
+            <input type="tel" value="+91 " minlength="10" class="text-input">         
+            
+
+            <label id="id"> Payment method:</label>    
+            <input type="text" list="c" class="text-input">
+            <datalist id="c">
+            <option>google pay</option>
+            <option>phone pay</option>
+            <option>paytm</option>
+            </datalist>
+
+          
+
+            <button class="btn">Submit</button>
+        </form>
+       
+    </div>
 </body>
 </html>

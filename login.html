@@ -19,29 +19,65 @@
             border-radius: 10px;
             padding: 30px;
             box-sizing: border-box;
+            background-color: rgb(255, 254, 254);
         }
         body{
             display: flex;
             justify-content: center;
             align-items: center;
             height: 90vh;
+            background-image: url(https://wallpaperaccess.com/full/99790.jpg);
+            background-size: cover;
         } 
         .title{
             text-align: center;
+            font-size: 30px;
             
         }
-
+        .text-input{
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            outline: none;
+            background-color: rgb(215, 194, 242);
+            border: none;
+            border-bottom: 2px solid rgba(199, 199, 250, 0.677);
+            border-radius: 5px;
+            
+        }
+        .btn{
+            background-color: rgb(147, 111, 244);
+            padding: 10px;
+            border: none;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .link{
+            text-decoration: none;
+            color: brown;
+        }
+        .link:hover{
+            text-decoration: dashed;
+            color: blue;
+        }
+        
     </style>
 </head>
 <body>
     <div class="card">
-        <h3 class="title">Login Form</h3>
+        <h2 class="title">Contact Form</h2>
         <form action="">
-            <label>Email Address</label>
-            <input type="text" class="text input">
+            <label> Name</label>
+            <input type="text" class="text-input">
 
-            <label>Password</label>
-            <input type="password" class="text input">
+            <label>Email</label>
+            <input type="email" class="text-input">
+            <label>Phone no.</label>
+            <input type="tel" class="text-input">
+
+            
 
             <button class="btn">Submit</button>
         </form>
