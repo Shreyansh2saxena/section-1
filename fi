@@ -1,0 +1,55 @@
+ <section class="w-[80%] mx-auto">
+                <h1 class="text-center font-bold text-4xl my-6">Our services</h1>
+                <div class="grid lg:grid-cols-3 gap-5 ">
+                    <div class="shadow-lg rounded border-blue-500 p-8">
+                        <img src="undraw_mobile_analytics_twab.png" alt="">
+                        <div class="space-y-4">
+                            <h3 class="text-3xl font-bold">Service title 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem?</p>
+                            <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded">learn more</button>
+                        </div>
+                    </div>
+                    <div class="shadow-lg rounded  border-blue-500 p-8">
+                        <img src="undraw_mobile_analytics_twab.png" alt="">
+                        <div class="space-y-4">
+                            <h3 class="text-3xl font-bold">Service title 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem?</p>
+                            <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded">learn more</button>
+                        </div>
+                    </div>
+                    <div class="shadow-lg rounded  border-blue-500 p-8">
+                        <img src="undraw_mobile_analytics_twab.png" alt="">
+                        <div class="space-y-4">
+                            <h3 class="text-3xl font-bold">Service title 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem?</p>
+                            <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded">learn more</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class=" grid grid-cols-4 gap-16 h-64  w-[80%] m-auto my-6">
+                <div class=" rounded-lg bg-[url(https://wallpapercave.com/wp/wp8754895.jpg)] bg-cover"></div>
+                <div class="rounded-lg bg-[url(https://www.largus.fr/images/2022-09/jeep-recon-2022-gris-avd-mk.jpg)] bg-cover"></div>
+                <div class=" rounded-lg bg-[url(http://rozendal.co.za/wordpress2/wp-content/uploads/2017/03/hiking-trail.jpg)] bg-cover"></div>
+                <div class=" rounded-lg bg-[url(https://img.freepik.com/premium-photo/one-corners-island-lanjukang-with-view-white-lighthouse-overlooking-se_762326-3.jpg)] bg-cover"></div>
+                
+            </div>
