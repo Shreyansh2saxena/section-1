@@ -70,3 +70,6 @@ while(n1>0){
     n1=parseInt(n1/10)
 }
 console.log(r);
+
+
+

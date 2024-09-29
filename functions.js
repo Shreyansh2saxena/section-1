@@ -29,3 +29,28 @@ const getAvg = function(a,b,c){
 console.log(fact(5));
 
 
+let n=145;
+let s=0;
+while(n>0){
+    let r= n%10;
+    s=s+(r**3);
+    n=n/10;
+}
+
+  if(s==n){
+    console.log('arm strong');
+}
+
+
+let n2= 151;
+let d=0;
+while(n2>0){
+    let r =n2%10;
+    d = d*10+r;
+    n2=n2/10;
+}
+
+if(n2==d){
+    console.log('palindrome');
+    
+}
