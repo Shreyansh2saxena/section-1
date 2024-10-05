@@ -34,10 +34,20 @@ console.log(ar);
 ar.splice(-2,0 ,'flash', 'arrow','shadow and bow') //remove element from index and upto places
 console.log(ar);
 
+// spread array
+const p = [1,2,3,4];
+const b = [6,8,9,0];
+ const c = [...p,...b,...a]
+console.log(c);
 
+//to singlised array in array
 
+const anr =[1,2,3,[4,5,6],7,[6,7,[8,9,0]]];
+const real = anr.flat(Infinity) //infinty defines no. of depth 
+console.log(real);
 
-
+// convert string into array ; Array.of also use for various converting element into array
+console.log(Array.from('shreyansh'));
 
 
 

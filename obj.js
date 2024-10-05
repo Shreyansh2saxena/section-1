@@ -89,8 +89,8 @@ console.log(r);
 const keyword = 'sa';
 const fil = spl.filter((p)=>{return p.brand.toLowerCase().includes(keyword.toLowerCase())})
 
-
-
+//to make object unchangble use Object.freeze
+//Object.assign() use to combine object or use spread(...)
 
 
 
